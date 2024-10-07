@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'MononokiNF';
+    src: url('../fonts/MononokiNFReg.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoB';
+    src: url('../fonts/JetBrainsMonoBold.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoR';
+    src: url('../fonts/JetBrainsMonoReg.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'RobotoReg';
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBld';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    background: #1b1b1f;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    font-weight: bold;
+    font-family: 'RobotoReg';
+    color: #00ffff;
+}
+
+p {
+    font-family: 'RobotoReg';
+    color: #FFFFFF;
+}
+
+small {
+    font-family: 'RobotoReg';
+    color: #bfbfbf;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.title {
+    color: #00ffff;
+    font-family: 'RobotoBld';
+}
+
+.title a {
+    text-decoration: none;
+    color: #00ffff;
+}
+
+.subtitle {
+    color: #FFFFFF;
+    font-family: 'RobotoReg';
+}
+
+.toolbar {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.toolbar-icon-container {
+    width: 40px;
+    justify-content: center;
+}
+
+.icon {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.toolbar-title-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu {
+    display: inline-flex;
+    margin-left: auto;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #bfbfbf;
+    transition: 0.4s;
+    font-family: 'RobotoBld';
+}
+
+.menu :hover {
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.presentation {
+    margin: 20px;
+}
+
+.presentation-section {
+    margin: 0px;
+    padding: 10px;
+}
+
+.icon-presentation {
+    margin-top: 0px;
+    width: 75px;
+}
+
+.name-title {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.description-title {
+    margin: 0px;
+    font-size: 25px;
+}
+
+.little-msg {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card {
+    margin: 20px;
+    padding: 0px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #202127;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.card-fix-margin {
+    margin: 20px;
+}
+
+
+.title-card {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0px;
+}
+
+.title-card svg {
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.thumbnail {
+    max-width: 100%;
+    margin: 0px;
+}
+
+.links-container {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    padding: 0px;
+}
+
+.button {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-right: 4px;
+    padding: 14px;
+    text-decoration: none;
+    background-color: #32363f;
+    transition: 0.4s;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    color: #FFFFFF;
+    font-family: 'MononokiNF';
+}
+
+.button svg {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.button:hover {
+    box-shadow: 0 7px 14px 0 rgba(0,0,0,0.2);
+    background-color: #404652;
+    transition: 0.4s;
+}
+
+.misc-details {
+    display: inline;
+    text-align: center;
+    align-items: center;
+}
+
+.detail {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.detail svg {
+    margin-right: 5px;
+}
+
+.detail p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.center {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.project-view {
+    max-width: 350px;
+    margin: 0px;
+}
+
+.project-view p {
+    margin: 20px;
+}
+
+.thumbnail {
+    border-radius: 15px;
+}
