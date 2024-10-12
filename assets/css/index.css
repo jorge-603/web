@@ -62,6 +62,11 @@ small {
     margin: 0;
 }
 
+.vcontainer {
+    display:grid;
+    justify-content: center;
+}
+
 .title {
     color: #00ffff;
     font-family: 'RobotoBld';
@@ -267,4 +272,24 @@ small {
 
 .thumbnail {
     border-radius: 15px;
+}
+
+.contact-form input {
+    background-color:transparent;
+    margin: 10px;
+    color: #bdbdbd;
+    outline: none;
+    border: 0cap;
+    font-size: 15px;
+}
+
+.contact-form button{
+    background-color: #FFFFFF;
+}
+
+.input-container {
+    border-radius: 10px;
+    background-color: #202127;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
