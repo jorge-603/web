@@ -156,6 +156,23 @@
     </div>
 
     <div class="center">
+        <form class="contact-form" action="">
+            <div class="vcontainer">
+                <div class="input-container">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="input-container">
+                    <input type="email" name="email" id="email" placeholder="Correo electronico" required>
+                </div>
+                <div class="input-container">
+                    <input type="textarea" name="mensaje" id="mensaje" placeholder="Mensaje" required>
+                </div>
+                <input type="submit" value="Subir">
+            </div>
+        </form>
+    </div>
+
+    <div class="center">
         <div class="title-card">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-user">
                 <rect width="18" height="18" x="3" y="3" rx="2" />
