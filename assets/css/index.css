@@ -274,7 +274,7 @@ small {
     border-radius: 15px;
 }
 
-.contact-form input {
+.contact-form input:not([type="submit"]) {
     background-color:transparent;
     margin: 10px;
     color: #bdbdbd;
@@ -283,13 +283,10 @@ small {
     font-size: 15px;
 }
 
-.contact-form button{
-    background-color: #FFFFFF;
-}
-
 .input-container {
     border-radius: 10px;
     background-color: #202127;
     margin-top: 5px;
     margin-bottom: 5px;
+    
 }

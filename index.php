@@ -167,7 +167,7 @@
                 <div class="input-container">
                     <input type="textarea" name="mensaje" id="mensaje" placeholder="Mensaje" required>
                 </div>
-                <input type="submit" value="Subir">
+                <input class="button" type="submit" value="Subir">
             </div>
         </form>
     </div>
