@@ -47,7 +47,7 @@
                         <path d="M12 5v14" />
                         <path d="m19 12-7 7-7-7" />
                     </svg>
-                    Mas info
+                    Mas links
                 </a>
             </div>
         </div>
@@ -121,7 +121,7 @@
 
     <div class="center">
         <div class="card project-view">
-            <img class="thumbnail" src="https://filebeam.xyz/file/1HFOHG.png" alt="">
+            <img class="thumbnail" src="https://files.filebeam.xyz/p71qc9.png" alt="Captura de pantalla mostrando la pagina filebeam.xyz">
             <h2 class="title">FileBeam (API)</h2>
             <p>Página para subir compartir archivos mediante enlaces directos.
                 Permite inserción externa. La API permite subir archivos de forma externa
@@ -156,20 +156,9 @@
     </div>
 
     <div class="center">
-        <form class="contact-form" action="">
-            <div class="vcontainer">
-                <div class="input-container">
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
-                </div>
-                <div class="input-container">
-                    <input type="email" name="email" id="email" placeholder="Correo electronico" required>
-                </div>
-                <div class="input-container">
-                    <input type="textarea" name="mensaje" id="mensaje" placeholder="Mensaje" required>
-                </div>
-                <input class="button" type="submit" value="Subir">
-            </div>
-        </form>
+        <div class="card">
+
+        </div>
     </div>
 
     <div class="center">

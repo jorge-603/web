@@ -33,8 +33,22 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'HostGrotReg';
+    src: url('../fonts/HostGroteskRegular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'HostGrotSemBld';
+    src: url('../fonts/HostGroteskSemiBold.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
 body {
-    background: #1b1b1f;
+    background: #0D0D0D;
     margin: 0;
     padding: 0;
 }
@@ -46,12 +60,12 @@ span {
 }
 
 p {
-    font-family: 'RobotoReg';
+    font-family: 'HostGrotReg';
     color: #FFFFFF;
 }
 
 small {
-    font-family: 'RobotoReg';
+    font-family: 'HostGrotReg';
     color: #bfbfbf;
 }
 
@@ -69,7 +83,7 @@ small {
 
 .title {
     color: #00ffff;
-    font-family: 'RobotoBld';
+    font-family: 'HostGrotSemBld';
 }
 
 .title a {
@@ -90,7 +104,7 @@ small {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
-    border-bottom: 1px solid #3b3b3b;
+    border-bottom: 1px solid #1E1E1F;
 }
 
 .toolbar-icon-container {
@@ -99,9 +113,9 @@ small {
 }
 
 .icon {
-    max-width: 100%;
+    max-width: 90%;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .toolbar-title-container {
@@ -165,8 +179,8 @@ small {
 .card {
     margin: 20px;
     padding: 0px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    background-color: #202127;
+    background-color: #151414;
+    border: 2px solid #1E1E1F;
     transition: 0.3s;
     border-radius: 15px;
 }
@@ -205,27 +219,33 @@ small {
     display: inline-flex;
     text-align: center;
     align-items: center;
-    margin-top: 14px;
-    margin-bottom: 14px;
-    margin-right: 4px;
-    padding: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 2px;
+    padding: 10px;
     text-decoration: none;
-    background-color: #32363f;
+    background-color: #151414;
+    border: 2px solid #1E1E1F;
     transition: 0.4s;
-    border-radius: 20px;
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     color: #FFFFFF;
     font-family: 'MononokiNF';
 }
 
 .button svg {
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: 0.4s;
 }
 
 .button:hover {
-    box-shadow: 0 7px 14px 0 rgba(0,0,0,0.2);
-    background-color: #404652;
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+    transition: 0.4s;
+}
+
+.button:hover svg {
+    filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(352deg) brightness(111%) contrast(101%);
     transition: 0.4s;
 }
 
@@ -272,15 +292,6 @@ small {
 
 .thumbnail {
     border-radius: 15px;
-}
-
-.contact-form input:not([type="submit"]) {
-    background-color:transparent;
-    margin: 10px;
-    color: #bdbdbd;
-    outline: none;
-    border: 0cap;
-    font-size: 15px;
 }
 
 .input-container {
