@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="favicon.ico" />
     <link rel="stylesheet" href="assets/css/index.css">
-    <title>Jorge#603</title>
+    <title>Jorge#603 - Página principal</title>
+    <script src="https://kit.fontawesome.com/b2d1257ebd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -102,7 +103,7 @@
                         <path d="M12 4h.01" />
                         <path d="M17 4h.01" />
                     </svg>
-                    <p>16 Dic</p>
+                    <p>16 Dic 2002 (22)</p>
                 </div>
             </div>
         </div>
@@ -123,7 +124,7 @@
         <div class="card project-view">
             <img class="thumbnail" src="https://files.filebeam.xyz/p71qc9.png" alt="Captura de pantalla mostrando la pagina filebeam.xyz">
             <h2 class="title">FileBeam (API)</h2>
-            <p>Página para subir compartir archivos mediante enlaces directos.
+            <p>Página para subir y compartir archivos mediante enlaces directos.
                 Permite inserción externa. La API permite subir archivos de forma externa
                 a la página, entre otras funciones en desarrollo.
             </p>
