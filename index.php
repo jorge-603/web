@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="favicon.ico" />
     <link rel="stylesheet" href="assets/css/index.css">
-    <title>Jorge#603 - Página principal</title>
+    <title>Página principal ~ Jorge#603</title>
     <script src="https://kit.fontawesome.com/b2d1257ebd.js" crossorigin="anonymous"></script>
 </head>
 
@@ -19,7 +19,6 @@
             <h3 class="title"><a href=".">Jorge#603</a></h1>
         </div>
         <ul class="menu">
-            <li><a href="#">Acerca de</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
             <li><a href="#">Blog</a></li>
@@ -48,7 +47,7 @@
                         <path d="M12 5v14" />
                         <path d="m19 12-7 7-7-7" />
                     </svg>
-                    Mas links
+                    Enlaces
                 </a>
             </div>
         </div>
@@ -110,6 +109,63 @@
     </div>
 
     <div class="center">
+        <div class="title inline">
+        <svg class="separator-right" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket-icon lucide-rocket">
+            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+        </svg>
+        <h1 class="title">Habilidades Técnicas</h1>
+        </div>
+    </div>
+
+    <div class="tech-sections">
+    <div class="row">
+        <div class="tech-section">
+            <h3>Lenguajes y Frameworks</h3>
+            <div class="tech-stack">
+                <span class="tag php">PHP</span>
+                <span class="tag laravel">Laravel</span>
+                <span class="tag java">Java</span>
+                <span class="tag javascript">Javascript</span>
+            </div>
+        </div>
+
+        <div class="tech-section">
+            <h3>Tecnologías</h3>
+            <div class="tech-stack">
+                <span class="tag mariadb">MariaDB</span>
+                <span class="tag apache">Apache</span>
+                <span class="tag nginx">NGINX</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="tech-section">
+            <h3>Sistemas Operativos de Servidor</h3>
+            <div class="tech-stack">
+                <span class="tag ubuntu">Ubuntu</span>
+                <span class="tag fedora">Fedora</span>
+                <span class="tag rocky">Rocky Linux</span>
+            </div>
+        </div>
+
+        <div class="tech-section">
+            <h3>Otros</h3>
+            <div class="tech-stack">
+                <span class="tag microsoft365">Microsoft 365</span>
+                <span class="tag paper">PaperMC</span>
+                <span class="tag bungeecord">BungeeCord</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="center">
         <div class="title-card">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box">
                 <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
@@ -128,6 +184,9 @@
                 Permite inserción externa. La API permite subir archivos de forma externa
                 a la página, entre otras funciones en desarrollo.
             </p>
+            <span class="tag generic" style="margin: 3px;">PHP</span>
+            <span class="tag generic" style="margin: 3px;">MariaDB</span><br>
+            <span class="tag generic" style="margin: 3px;">Ubuntu Server</span><br>
             <a class="button" href="https://github.com/filebeam/api" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github">
                     <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
@@ -152,17 +211,17 @@
                 <rect width="20" height="16" x="2" y="4" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
             </svg>
-            <h1 class="title" id="contacto">Contacto</h1>
+            <h1 class="title" id="contacto">Contacto / Enlaces</h1>
         </div>
     </div>
 
     <div class="center">
         <div class="card">
-
+            
         </div>
     </div>
 
-    <div class="center">
+    <!-- <div class="center">
         <div class="title-card">
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-user">
                 <rect width="18" height="18" x="3" y="3" rx="2" />
@@ -171,7 +230,7 @@
             </svg>
             <h1 class="title">Acerca de</h1>
         </div>
-    </div>
+    </div> -->
 
 </body>
 
