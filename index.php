@@ -19,9 +19,10 @@
             <h3 class="title"><a href=".">Jorge#603</a></h1>
         </div>
         <ul class="menu">
+            <li><a href="https://jorge603.xyz/discord" target="_blank"><i style="margin-right:5px;" class="fa-brands fa-discord fa-lg" style="color: #ffffff;"></i>Servidor de discord</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#contacto">Contacto</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href=".">Blog</a></li>
         </ul>
         </div>
     </nav>
@@ -42,7 +43,7 @@
                     </svg>
                     GitHub
                 </a>
-                <a href="#" class="button">
+                <a href="#contacto" class="button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down">
                         <path d="M12 5v14" />
                         <path d="m19 12-7 7-7-7" />
@@ -64,7 +65,8 @@
                     <h2 class="title">Sobre mí</h2>
                 </div>
             </div>
-            <p class="card-fix-margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            <p class="card-fix-margin">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
                 Similique, odio?T empora, non consequuntur rerum at doloribus <br>
                 pariatur cumque laboriosam provident magni itaque, optio fuga? <br>
                 Suscipit possimus consectetur porro modi maiores. <br>
@@ -110,58 +112,58 @@
 
     <div class="center">
         <div class="title inline">
-        <svg class="separator-right" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket-icon lucide-rocket">
-            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
-            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
-            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
-            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
-        </svg>
-        <h1 class="title">Habilidades Técnicas</h1>
+            <svg class="separator-right" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket-icon lucide-rocket">
+                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+                <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+            </svg>
+            <h1 class="title">Habilidades Técnicas</h1>
         </div>
     </div>
 
     <div class="tech-sections">
-    <div class="row">
-        <div class="tech-section">
-            <h3>Lenguajes y Frameworks</h3>
-            <div class="tech-stack">
-                <span class="tag php">PHP</span>
-                <span class="tag laravel">Laravel</span>
-                <span class="tag java">Java</span>
-                <span class="tag javascript">Javascript</span>
+        <div class="row">
+            <div class="tech-section">
+                <h3>Lenguajes y Frameworks</h3>
+                <div class="tech-stack">
+                    <span class="tag php">PHP</span>
+                    <span class="tag laravel">Laravel</span>
+                    <span class="tag java">Java</span>
+                    <span class="tag javascript">Javascript</span>
+                </div>
+            </div>
+
+            <div class="tech-section">
+                <h3>Tecnologías</h3>
+                <div class="tech-stack">
+                    <span class="tag mariadb">MariaDB</span>
+                    <span class="tag apache">Apache</span>
+                    <span class="tag nginx">NGINX</span>
+                </div>
             </div>
         </div>
 
-        <div class="tech-section">
-            <h3>Tecnologías</h3>
-            <div class="tech-stack">
-                <span class="tag mariadb">MariaDB</span>
-                <span class="tag apache">Apache</span>
-                <span class="tag nginx">NGINX</span>
+        <div class="row">
+            <div class="tech-section">
+                <h3>Sistemas Operativos de Servidor</h3>
+                <div class="tech-stack">
+                    <span class="tag ubuntu">Ubuntu</span>
+                    <span class="tag fedora">Fedora</span>
+                    <span class="tag rocky">Rocky Linux</span>
+                </div>
+            </div>
+
+            <div class="tech-section">
+                <h3>Otros</h3>
+                <div class="tech-stack">
+                    <span class="tag microsoft365">Microsoft 365</span>
+                    <span class="tag paper">PaperMC</span>
+                    <span class="tag bungeecord">BungeeCord</span>
+                </div>
             </div>
         </div>
     </div>
-
-    <div class="row">
-        <div class="tech-section">
-            <h3>Sistemas Operativos de Servidor</h3>
-            <div class="tech-stack">
-                <span class="tag ubuntu">Ubuntu</span>
-                <span class="tag fedora">Fedora</span>
-                <span class="tag rocky">Rocky Linux</span>
-            </div>
-        </div>
-
-        <div class="tech-section">
-            <h3>Otros</h3>
-            <div class="tech-stack">
-                <span class="tag microsoft365">Microsoft 365</span>
-                <span class="tag paper">PaperMC</span>
-                <span class="tag bungeecord">BungeeCord</span>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -183,6 +185,7 @@
             <p>Página para subir y compartir archivos mediante enlaces directos.
                 Permite inserción externa. La API permite subir archivos de forma externa
                 a la página, entre otras funciones en desarrollo.
+                <b>Licencia AGPL-3.0</b>
             </p>
             <span class="tag generic" style="margin: 3px;">PHP</span>
             <span class="tag generic" style="margin: 3px;">MariaDB</span><br>
@@ -217,21 +220,42 @@
 
     <div class="center">
         <div class="card">
-            
+            <div class="title-card">
+                <svg class="separator-left" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail">
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+                <h2 class="title separator-right">Enlaces de contacto</h2>
+            </div>
+
+            <div style="display:flex; justify-content:center; align-items:center;">
+                <svg class="separator-left" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail">
+                    <rect width="20" height="16" x="2" y="4" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+                <p class="inline separator-left separator-right">Email: jorgean9999@gmail.com</p>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-discord fa-xl" style="color: #ffffff;"></i>
+                <p class="inline separator-left">Discord: @Jorge603</p>
+            </div>
+
+            <div>
+                <a style="text-decoration:none" href="https://x.com/Jorge_603" class="inline">
+                    <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+                    <p class="separator-left">Twitter: Jorge_603</p>
+                </a>
+            </div>
+
+            <div>
+                <a class="inline separator-left" style="text-decoration: none;" target="_blank" href="https://www.youtube.com/@Jorge603">
+                    <i class="fa-brands fa-youtube fa-xl" style="color: #ffffff;"></i>
+                    <p class="separator-left">YouTube: @Jorge603</p>
+                </a>
+            </div>
         </div>
     </div>
-
-    <!-- <div class="center">
-        <div class="title-card">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#00ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-user">
-                <rect width="18" height="18" x="3" y="3" rx="2" />
-                <circle cx="12" cy="10" r="3" />
-                <path d="M7 21v-2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2" />
-            </svg>
-            <h1 class="title">Acerca de</h1>
-        </div>
-    </div> -->
-
 </body>
 
 </html>

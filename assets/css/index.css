@@ -47,6 +47,10 @@
     font-weight: normal;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
     background: #0D0D0D;
     margin: 0;
@@ -214,7 +218,6 @@ small {
 .card-fix-margin {
     margin: 20px;
 }
-
 
 .title-card {
     display: inline-flex;
