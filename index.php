@@ -32,7 +32,7 @@
             <img class="icon-presentation" src="assets/img/icon.png" alt="icon-jorge">
             <h1 class="title name-title">Jorge#603</h1>
             <h2 class="subtitle description-title">Desarrollador Backend</h2>
-            <small class="little-msg">Ingeniero en Sistemas Computacionales (90%)</small><br>
+            <small class="little-msg">Ingeniero en Sistemas Computacionales (-99%)</small><br>
             <small class="little-msg">SysAdmin en proceso (50%)</small><br>
             <small class="little-msg">e intento de YouTuber/Streamer (Si%)</small>
             <div class="links-container">
@@ -67,9 +67,7 @@
             </div>
             <p class="card-fix-margin">
                 Me llamo Jorge Antonio Mendoza Santiago,<br>
-                tengo 22 años y resido en el país México. <br>
-                Actualmente soy estudiante de Ingeniería en Sistemas Computacionales <br>
-                en el TECNM Campus Las Choapas (9no semestre). <br>
+                tengo 23 años y resido en el país México. <br>
                 Mis conocimientos actuales se centran en el desarrollo backend <br>
                 con PHP y Laravel, administración de servidores Linux usando Ubuntu Server, <br>
                 Fedora Server, Debian o Rocky Linux. <br>
@@ -104,7 +102,7 @@
                         <path d="M12 4h.01" />
                         <path d="M17 4h.01" />
                     </svg>
-                    <p>16 Dic 2002 (22)</p>
+                    <p>16 Dic 2002 (23)</p>
                 </div>
             </div>
         </div>
